@@ -1,5 +1,5 @@
 body {
-   background-image: url(./background 3.jpg);
+   background-image: url("https://preview.redd.it/majestic-mountain-peak-in-tranquil-winter-landscape-v0-uad8tvugd0dd1.jpeg?width=1080&crop=smart&auto=webp&s=83ed1647af6f157434d14f26455a139851b3318a");
    background-size: cover;
    display: flex;
    justify-content: center;
@@ -79,4 +79,5 @@ body {
 .btn:nth-child(20):hover {
     background-color: #312e2e;
 }
+
 
