@@ -23,6 +23,7 @@ body {
     opacity: 0.5;
     z-index: -1;
 }
+
 .layer-blur {
     height: 0;
     width: 30rem;
@@ -2268,3 +2269,4 @@ p{
         opacity: 0;
     }
 }
+
