@@ -1,0 +1,80 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image:url("https://images.unsplash.com/photo-1460355976672-71c3f0a4bdac?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+      background-size:100%;
+      color: #fff;
+}
+header{
+     width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+}
+header a{
+    color: #eee;
+    margin-right: 40px;
+    text-decoration: none;
+}
+ .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 10px auto;
+      padding: 10px 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 20px;
+ }
+.image-section img {
+      width: 80%;
+      max-width: 450px;
+      border-radius: 10px;
+      filter: grayscale(20%);
+      opacity: 0.5;
+      background-blend-mode: multiply;
+}
+.content-section h2 {
+      font-size: 38px;
+      margin: 0;
+}
+.content-section h3 {
+      font-size: 20px;
+      color: #ffc13b;
+      margin-top: 10px;
+}
+.content-section p {
+      max-width: 500px;
+      line-height: 1.6;
+      margin-top: 10px;
+}
+.info-table {
+      margin-top: 20px;
+}
+    .info-table div {
+      display: flex;
+      margin: 6px 0;
+}
+.info-table div span:first-child {
+      width: 120px;
+      color: #ccc;
+}
+.download-btn {
+      margin-top: 30px;
+      background: #ffc13b;
+      padding: 12px 28px;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+}
+.download-btn:hover {
+      background: #e0a832;
+}
